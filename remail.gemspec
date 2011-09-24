@@ -23,7 +23,7 @@ Gem::Specification.new do |s|
      "lib/remail.rb",
      "remail.gemspec"
   ]
-  s.homepage = %q{http://github.com/maccman/remail}
+  s.homepage = %q{http://github.com/edmagne/remail}
   s.rdoc_options = ["--charset=UTF-8"]
   s.require_paths = ["lib"]
   s.rubygems_version = %q{1.3.7}

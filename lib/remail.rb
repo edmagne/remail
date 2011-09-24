@@ -58,8 +58,8 @@ module Remail
       
       remail.subject  = mail.subject
       
-      text_body   = mail.text_part ? mail.text_part.body : mail.body
-      html_body   = mail.html_part && mail.html_part.body
+      text_body   = mail.text_part ? mail.text_part.body : nil
+      html_body   = mail.html_part ? mail.html_part.body : mail.body
       remail.body = text_body.encoded if text_body
       remail.html = html_body.encoded if html_body
       
